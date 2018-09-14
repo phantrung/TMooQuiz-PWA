@@ -9,18 +9,6 @@ class Base extends Component{
         this.state = {isPhone}
     }
 
-    setIsPhone(){
-        let obj = this;
-        $(window).resize(function () {
-            let width = $(this).width();
-            let isPhone = width < 768;
-            if(obj.state.isPhone !== isPhone){
-                obj.setState({isPhone})
-            }
-
-        })
-    }
-
     // async MixpanelTrack(){
     //     // SimiMixpanel.track();
     //     import(/* webpackChunkName: "Mixpanel"*/'../components/plugins/mixpanel').then(Mixpanel => {

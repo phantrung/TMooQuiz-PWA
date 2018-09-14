@@ -31,3 +31,24 @@ div#app-loading {
     font-size: 18px;
     font-weight: 400;
 }
+.list-item-content {
+    display: flex;
+    align-items: center;
+}
+.list-item-content .item-title {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.item-more.flex{
+    padding: 10px 25px 10px 15px;
+    font-size: 13px;
+    background: #1a2226;
+}
+.tmooquiz-header .logo {
+    text-align: center;
+    font-size: 22px;
+}
